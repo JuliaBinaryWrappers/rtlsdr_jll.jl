@@ -1,0 +1,107 @@
+[[rtlsdr]]
+arch = "aarch64"
+git-tree-sha1 = "a28570cb48f32cdc91962c91ceb7b3e91747fc4c"
+libc = "glibc"
+os = "linux"
+
+    [[rtlsdr.download]]
+    sha256 = "b757b37f6f62089f711df952f93f060440704017a42cdf7a58c275be31a539d9"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.aarch64-linux-gnu.tar.gz"
+[[rtlsdr]]
+arch = "aarch64"
+git-tree-sha1 = "d20585be865feb41b139ac01869a019376853ef1"
+libc = "musl"
+os = "linux"
+
+    [[rtlsdr.download]]
+    sha256 = "7afbb9f0f7d3e8f5c15bfa8612829941b960c79f96f99acde545ff023a3af885"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.aarch64-linux-musl.tar.gz"
+[[rtlsdr]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e11499f8778b7616635c8c1a495700c25ee4560c"
+libc = "glibc"
+os = "linux"
+
+    [[rtlsdr.download]]
+    sha256 = "73ccd4d8d0ca1d8728379c74a66ae5d91dd93e80265c2d3b9e57f2a71fa4ceb7"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.armv7l-linux-gnueabihf.tar.gz"
+[[rtlsdr]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "c7c4da4c2091b12cb45d64934632d1231e414e11"
+libc = "musl"
+os = "linux"
+
+    [[rtlsdr.download]]
+    sha256 = "09fcdd995f5a00406bf55fb525dda32c440e3a9a4b769304908ca58b341a2fb6"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.armv7l-linux-musleabihf.tar.gz"
+[[rtlsdr]]
+arch = "i686"
+git-tree-sha1 = "4902f8a226723d0b99edc2ae58055212044411a2"
+libc = "glibc"
+os = "linux"
+
+    [[rtlsdr.download]]
+    sha256 = "cdb8ef6c4012160cc2d1a8112b77bc2edb6331e692775019ea9304b71ea6bd5a"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.i686-linux-gnu.tar.gz"
+[[rtlsdr]]
+arch = "i686"
+git-tree-sha1 = "0199f4f00c74b65c0f10bdc126634083dc42d069"
+libc = "musl"
+os = "linux"
+
+    [[rtlsdr.download]]
+    sha256 = "91470149e05ea8653d8839b3bd2831714b3381953320c6cb7f7013f71b66d62b"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.i686-linux-musl.tar.gz"
+[[rtlsdr]]
+arch = "i686"
+git-tree-sha1 = "42afdf4295898ce58983536f0b5516349f326281"
+os = "windows"
+
+    [[rtlsdr.download]]
+    sha256 = "d155c45e912561e33d16743349c06fcefb439571cb41bae025801344202d0953"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.i686-w64-mingw32.tar.gz"
+[[rtlsdr]]
+arch = "powerpc64le"
+git-tree-sha1 = "d3f61ef54684b11be095683d98b072364af38452"
+libc = "glibc"
+os = "linux"
+
+    [[rtlsdr.download]]
+    sha256 = "cc533d2b4e6bbea6e7aca53d79853f4b69de67a816a3d619d6ded7e49b8f7854"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.powerpc64le-linux-gnu.tar.gz"
+[[rtlsdr]]
+arch = "x86_64"
+git-tree-sha1 = "40b17b9c0a36e2d915610153bdfe6fedddb63396"
+os = "macos"
+
+    [[rtlsdr.download]]
+    sha256 = "aea0db4a6a92e9ef45bc0f7a1b243ac2b52c453792a028845a99d6802d6ad294"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.x86_64-apple-darwin.tar.gz"
+[[rtlsdr]]
+arch = "x86_64"
+git-tree-sha1 = "0167d40a64bf1beb691c102e96c47d40ace61c99"
+libc = "glibc"
+os = "linux"
+
+    [[rtlsdr.download]]
+    sha256 = "7c2d7eb67ea5fe652486d29abaf8ff44b3b3a3c379ab9a4a87cc809746e822f4"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.x86_64-linux-gnu.tar.gz"
+[[rtlsdr]]
+arch = "x86_64"
+git-tree-sha1 = "754ec63f1887253b74907fe4ca4af07e4e00ab1c"
+libc = "musl"
+os = "linux"
+
+    [[rtlsdr.download]]
+    sha256 = "82fcf786564393fd48b1720f9a497f1130d8e85a39cbfcb5db373d459916ad50"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.x86_64-linux-musl.tar.gz"
+[[rtlsdr]]
+arch = "x86_64"
+git-tree-sha1 = "cf85a2f6dbe6eeaf51acf2ea8205d6c31dd2ab92"
+os = "windows"
+
+    [[rtlsdr.download]]
+    sha256 = "691985405e368a4f05c73113d8217f6ecd875a4a9e24ba49b44a5f8a661d088b"
+    url = "https://github.com/JuliaBinaryWrappers/rtlsdr_jll.jl/releases/download/rtlsdr-v0.6.0+0/rtlsdr.v0.6.0.x86_64-w64-mingw32.tar.gz"
